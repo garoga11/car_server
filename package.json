@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Back end of wall-e prototype",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garoga11/wall-e-backend.git"
+  },
+  "author": "Gabriela Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garoga11/wall-e-backend/issues"
+  },
+  "homepage": "https://github.com/garoga11/wall-e-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
